@@ -34,7 +34,7 @@ function animateRipples() {
 
     ctx.beginPath();
     ctx.arc(ripple.x, ripple.y, ripple.radius, 0, 2 * Math.PI);
-    ctx.strokeStyle = `rgba(0, 0, 255, ${ripple.opacity})`; // Blue ripple with fading opacity
+    ctx.strokeStyle = `rgba(230, 234, 255, ${ripple.opacity})`; // Blue ripple with fading opacity
     ctx.lineWidth = 2;
     ctx.stroke();
   });
