@@ -26,6 +26,7 @@ function createRipple(x, y) {
 
 // Function to animate ripples
 function animateRipples() {
+  document.body.style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16);
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   ripples.forEach(ripple => {
